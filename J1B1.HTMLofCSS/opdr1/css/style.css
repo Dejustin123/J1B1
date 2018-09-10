@@ -1,0 +1,32 @@
+body {
+    background-color: bisque;
+}
+
+
+#p1{float: right;
+
+   
+}
+#IMG1{float: left;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+#P2{float: left;
+
+}
+#IMG2{float:right;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+#P3{float: right;
+
+}
+#IMG3{float: left;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+
+}
