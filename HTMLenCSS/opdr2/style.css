@@ -1,0 +1,35 @@
+#Div1{        font-style: arial;
+       text-align: left;
+       background-image: url(Images/bg1.jpg);
+       background-position: right bottom, left top;
+       background-repeat: no-repeat, repeat;
+       padding: 15px; 
+       color: white; 
+             
+}
+#Div2{ width: 500px;
+    margin-left: 350px;
+    font-style: arial;
+}
+#ul1{
+    list-style:none;
+}
+#H1{
+    margin-left: 300px;
+}
+.rondimg{ 
+        border-radius: 10px;
+        position: relative;
+       margin-left: 250px;
+}
+a{ 
+    font-style:arial;
+    color: white;
+    margin-left: 300px;
+}
+body{ 
+    background-color: grey;
+}
+p{
+    color:white;
+}
