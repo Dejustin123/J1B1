@@ -7,7 +7,7 @@
        color: white; 
              
 }
-#Div2{ width: 500px;
+#Div2{ width: 750px;
     margin-left: 350px;
     font-style: arial;
 }
@@ -20,7 +20,7 @@
 .rondimg{ 
         border-radius: 10px;
         position: relative;
-       margin-left: 250px;
+       margin-left: 500px;
 }
 a{ 
     font-style:arial;
