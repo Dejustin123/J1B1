@@ -1,35 +1,60 @@
 #Div1{        font-style: arial;
-       text-align: left;
        background-image: url(Images/bg1.jpg);
        background-position: right bottom, left top;
        background-repeat: no-repeat, repeat;
-       padding: 15px; 
        color: white; 
              
 }
-#Div2{ width: 750px;
+#Div2{ width: 600px;
+    width: 750px;
     margin-left: 350px;
     font-style: arial;
 }
-#ul1{
-    list-style:none;
-}
 #H1{
-    margin-left: 300px;
+    margin-left: 350px;
 }
 .rondimg{ 
         border-radius: 10px;
         position: relative;
-       margin-left: 500px;
+       margin-left: 350px;
+       margin-top: 50px;
 }
 a{ 
     font-style:arial;
     color: white;
-    margin-left: 300px;
+    margin-left: 150px;
+    font-style: arial;
+    font-size: 30px;
+    text-decoration: none;
 }
-body{ 
-    background-color: grey;
+body{
+    background-image: url(Images/BACKgr.svg);
 }
 p{
     color:white;
+}
+h2{
+    color:white;
+}
+
+li a:hover {
+    background-color: rgb(7, 4, 184);
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(1, 1, 105);
+    color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 5px;
 }
