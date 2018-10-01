@@ -1,0 +1,52 @@
+#main{
+    margin: 0 auto;
+    width: 50%;
+    font-family:'Roboto', sans-serif;
+}
+
+
+#p1{
+    width: 500px;
+    line-height: 26px;
+
+}
+.li{
+    width: 400px;
+
+}
+#gehaktbrood{
+    width: 500px;
+    height: 500px;
+}
+#footer{
+    width:500px;
+    background-color: greenyellow;
+    border-radius:10px;
+
+}
+#menu{
+    margin: 0 auto;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    outline-style: dashed;
+    outline-color: greenyellow;
+    margin-left: 10px;
+    line-height: 26px;
+}
+#shashuka{
+    width: 500px;
+    height: 500px;
+}
+#Ijs{
+    width: 500px;
+    height: 500px;
+}
+h1{
+    font-size:36px;
+    line-height:36px;
+}

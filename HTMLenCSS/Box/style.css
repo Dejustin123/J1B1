@@ -1,0 +1,14 @@
+#Box{
+    width: 300px;
+    height: 200px;
+    background-color: bisque;
+    padding:40px;
+    margin:40px;
+    border:20px;
+    border-color:red;
+    border-style: dashed;
+
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+}
