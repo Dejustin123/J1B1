@@ -16,9 +16,7 @@ opdracht: Lab - robotarm -->
             robotArm.loadLevel("exercise 7");
             
             // Jou instructies volgen hier
-            var teller = 0;
-
-            while(teller < 6){
+            for(var teller = 0; teller< 6; i++){
                 for (var i = 0; i < 9; i++) {
                     robotArm.moveRight();
                 }
@@ -28,7 +26,7 @@ opdracht: Lab - robotarm -->
                         robotArm.drop();
                         robotArm.moveLeft();
                     }
-            teller++
+            teller++;
             }
 
             // De door jou opgegeven instructies uitvoeren

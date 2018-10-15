@@ -1,46 +1,48 @@
+<!-- Nicky Devilee
+Bol4 applicatieontwikkelaar
+Week 6 - JavaScript
+opdracht: Lab - robotarm -->
+
 <html>
     <body>
         <canvas id="canvas" width="800" height="600"></canvas>
         <script src="script.js"></script>
         <script>
+            // Robotarm bibliotheek inladen
             var canvas = document.getElementById("canvas");
             var robotArm = new RobotArm(canvas);
+            
+            // Het level inladen
             robotArm.randomLevel(1, 8);
-            robotArm.speed = 1000;
-        for (i = 6; i > 0;i--){      
+            
+            // Jou instructies volgen hier
+            for (var i = 6; i > 0;i--) {
             robotArm.grab();
-            if (robotArm.scan() == null){
+            if (robotArm.scan() == null) {
                 i-=6;
             }else {
-                for (a = 7; a > i;a--){      
+                for (var j = 7; j > i;j--) {
                     robotArm.moveRight();
                 } robotArm.drop();
-                for (j = 6; j > 0; j--){
+                for (var k = 6; k > 0; k--) {
                     robotArm.moveLeft();
                 }
             }
         }
+            
+
+            // De door jou opgegeven instructies uitvoeren
             robotArm.run();
         </script>
     </body>
 </html>
 
-<!-- robotArm.speed = 1000;
-       for (a = 0; a < 9;) { 
-            robotArm.grab();
-            if (robotArm.scan() == 'red') {
-                for (i = 9; i > a;i--){
-                    robotArm.moveRight();
-                    
-                    
-                } 
-                robotArm.drop();
-                for (j = 8; j > a;j--){
-                    robotArm.moveLeft();
-                    
-                }
-                }else {
-                    robotArm.drop();
-                    robotArm.moveRight();
-            }a++;
-        }
+<!-- 
+for (var i = 0; i < 8; i++) {
+                
+            }
+robotArm.grab();
+robotArm.moveRight();
+robotArm.drop();
+robotArm.moveLeft();
+ -->

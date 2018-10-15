@@ -17,25 +17,26 @@ opdracht: Lab - robotarm -->
             
             // Jou instructies volgen hier
        
-        for(var i = 0; i<3; i++){
-        robotArm.moveRight();
+        for(var teller = 0; teller< 5;){
+        for(var i = 0; i<4; i++){
+        robotArm.moveLeft();
         }robotArm.grab();
-        for(var i=0; i<2; i++){
+        for(var i=0; i<5; i++){
             robotArm.moveRight();
         }robotArm.drop();
-        for(var i = 0; i<3; i++){
+    teller++; }
+    for(var counter = 0; counter < 4;){
+        robotArm.grab();
+        for(var i=0; i<6; i++){
             robotArm.moveLeft();
-        }robotArm.grab();
-        for(var i = 0; i<4; i++){
-            robotArm.moveRight();
         }robotArm.drop();
         for(var i=0; i<5; i++){
-            robotArm.moveLeft();
-        }robotArm.grab();
-        for(var i=0; i<6; i++){
             robotArm.moveRight();
-        }robotArm.drop();
-
+        }
+        counter++; }
+    robotArm.grab();
+    robotArm.moveLeft();
+    robotArm.drop();
             // De door jou opgegeven instructies uitvoeren
             robotArm.run();
         </script>
